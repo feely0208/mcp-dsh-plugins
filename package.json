@@ -1,0 +1,46 @@
+{
+  "name": "@deepwhale-cn/mcp-dsh-plugins",
+  "version": "0.1.0",
+  "description": "深鲸 DSH 插件市场 MCP 服务器：让 Claude / Cursor 等任意 MCP 客户端发现、检索和检查 50 个深鲸 DSH 插件。",
+  "type": "module",
+  "bin": {
+    "mcp-dsh-plugins": "cli.mjs"
+  },
+  "files": [
+    "cli.mjs",
+    "src/",
+    "data/",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node cli.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "selfcheck": "node tests/selfcheck.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "deepwhale",
+    "dsh",
+    "plugin-market",
+    "plugins"
+  ],
+  "author": "温州深鲸智能科技有限公司",
+  "license": "MIT",
+  "homepage": "https://deepwhale.org.cn/plugins.html",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^3.25.76"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feely0208/mcp-dsh-plugins.git"
+  }
+}
