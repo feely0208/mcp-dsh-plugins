@@ -213,3 +213,7 @@ Data: fetched from https://www.deepwhale.org.cn/plugin-market.json with an offli
 
 Published to the official MCP Registry as `io.github.feely0208/mcp-dsh-plugins`.
 MIT © 温州深鲸智能科技有限公司
+
+---
+
+<p align="right"><a href="https://deepwhale.org.cn"><img src="https://www.deepwhale.org.cn/images/badge/deepwhale-badge.png" alt="powered by dwh" height="20"></a></p>
