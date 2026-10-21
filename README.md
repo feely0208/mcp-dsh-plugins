@@ -1,4 +1,14 @@
+<p align="center">
+  <a href="https://www.npmjs.com/package/@deepwhale-cn/mcp-dsh-plugins"><img alt="npm" src="https://img.shields.io/npm/v/@deepwhale-cn/mcp-dsh-plugins?color=0b7285"></a>
+  <a href="https://github.com/feely0208/mcp-dsh-plugins/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/badge/license-MIT-2dd4bf"></a>
+  <img alt="mcp" src="https://img.shields.io/badge/MCP-stdio-blue">
+  <a href="https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.feely0208/mcp-dsh-plugins"><img alt="registry" src="https://img.shields.io/badge/registry-active-2dd4bf"></a>
+  <img alt="plugins" src="https://img.shields.io/badge/plugins-51-005A8C">
+</p>
+
 # @deepwhale-cn/mcp-dsh-plugins
+
+> 已发布到官方 MCP Registry：`io.github.feely0208/mcp-dsh-plugins`（active）· npm `@deepwhale-cn/mcp-dsh-plugins`
 
 [English](#english) · **简体中文**
 
