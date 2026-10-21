@@ -1,6 +1,6 @@
 {
   "name": "@deepwhale-cn/mcp-dsh-plugins",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "深鲸 DSH 插件市场 MCP 服务器：让 Claude / Cursor 等任意 MCP 客户端发现、检索和检查 50 个深鲸 DSH 插件。",
   "type": "module",
   "bin": {
@@ -10,6 +10,7 @@
     "cli.mjs",
     "src/",
     "data/",
+    "README.md",
     "README.zh.md",
     "LICENSE"
   ],

@@ -6,12 +6,12 @@
     "url": "https://github.com/feely0208/mcp-dsh-plugins",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@deepwhale-cn/mcp-dsh-plugins",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       },
