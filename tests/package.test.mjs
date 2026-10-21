@@ -6,7 +6,8 @@ import { ROOT } from './helpers.mjs';
 test('package.json 满足包发布要求', async () => {
   const pkg = JSON.parse(await readFile(new URL('package.json', ROOT), 'utf8'));
   assert.equal(pkg.name, '@deepwhale-cn/mcp-dsh-plugins');
-  assert.equal(pkg.version, '0.1.0');
+  assert.match(pkg.version, /^\d+\.\d+\.\d+/);
+  assert.ok(pkg.files.includes('README.md'), 'npm 页面显示 README.md，必须随包');
   assert.equal(pkg.type, 'module');
   assert.equal(pkg.license, 'MIT');
   assert.equal(pkg.bin['mcp-dsh-plugins'], 'cli.mjs');
